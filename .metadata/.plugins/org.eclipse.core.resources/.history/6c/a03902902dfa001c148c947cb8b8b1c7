@@ -1,0 +1,63 @@
+/*
+ ============================================================================
+ Name        : PrintPrimeNumberArray.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int is_prime(int num) {
+		int i, bool;
+		if (num == 0 || num == 1) {
+			bool = 0;
+		} else if (num == 2) {
+			bool = 0;
+		} else if (num % 2 == 0) {
+			bool = 0;
+		} else {
+			for (i = 3; i < num; i++) {
+
+				if (num % i == 0) {
+					bool = 0;
+					break;
+				} else if(num % i !=0){
+					bool = 1;
+				}
+			}
+		}
+		return bool;
+	}
+
+	int arraySize,array[200],i,no_of_prime=0;
+	setbuf(stdout,NULL);
+
+	printf("Please enter array size :\n");
+	scanf("%d",&arraySize);
+	printf("array size :%d\n",arraySize);
+
+	printf("Please enter numbers: \n");
+	for(i=0;i<arraySize;i++){
+		printf("Number%d: \t",i);
+		scanf("%d",&array[i]);
+	}
+
+
+	for(i=0;i<arraySize;i++){
+		if (is_prime(array[i])==1){
+			printf("\n%d is Prime number",array[i]);
+			no_of_prime++;
+		}
+
+	}
+	printf("\nThere are %d Prime Numbers in this list !!",no_of_prime);
+
+
+		return EXIT_SUCCESS;
+}

@@ -1,0 +1,7 @@
+23:09:51 **** Incremental Build of configuration Debug for project PrintPrimeNumberArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray.o" "..\\src\\PrintPrimeNumberArray.c" 
+gcc -o PrintPrimeNumberArray.exe "src\\PrintPrimeNumberArray.o" 
+
+23:09:51 Build Finished. 0 errors, 0 warnings. (took 447ms)
+

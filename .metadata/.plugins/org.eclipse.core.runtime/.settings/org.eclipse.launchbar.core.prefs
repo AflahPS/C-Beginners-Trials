@@ -1,0 +1,16 @@
+LaunchTargetManager/configs/CountDupeElements.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/PrintPrimeFromArray.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/PrintPrimeFromArray.exe\ (1)=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/PrintPrimeNumberArray.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/PrintUUnique.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/SortAndMergeArray.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/SortArray.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:CountDupeElements.exe,org.eclipse.launchbar.core.descriptorType.default\:PrintUUnique.exe,org.eclipse.launchbar.core.descriptorType.default\:PrintPrimeFromArray.exe (1),org.eclipse.launchbar.core.descriptorType.default\:PrintPrimeFromArray.exe,org.eclipse.launchbar.core.descriptorType.default\:PrintPrimeNumberArray.exe,org.eclipse.launchbar.core.descriptorType.default\:SortArray.exe,org.eclipse.launchbar.core.descriptorType.default\:SortAndMergeArray.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:CountDupeElements.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:CountDupeElements.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:PrintUUnique.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:SortAndMergeArray.exe/activeLaunchMode=run

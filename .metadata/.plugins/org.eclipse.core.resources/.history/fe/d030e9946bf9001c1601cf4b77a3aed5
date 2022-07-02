@@ -1,0 +1,37 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int count,arraySize=10,array[arraySize],i,j;
+
+	for (i = 0; i < arraySize; i++) {
+			if (i % 3 == 0 ) {
+				array[i] = i + 1;
+			} else {
+				array[i] = i;
+			}
+		}
+	for (i = 0; i < arraySize; i++) {
+		printf(" %d, ",array[i]);
+	}
+	for(i=0;i<arraySize;i++){
+		for(j=0;j<arraySize;j++){
+			if (i!=j && array[i]!=array[j]){
+			count++;
+			}
+			else if (i!=j && array[i]==array[j]){
+			break;
+			}
+
+		
+		}if(count==arraySize-1){printf("\n unique are %d",array[i]);}
+		else{printf("\n unique are none");}
+
+		
+		
+	}
+	
+	return EXIT_SUCCESS;
+}

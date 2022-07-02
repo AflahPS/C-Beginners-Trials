@@ -1,0 +1,7 @@
+22:26:35 **** Incremental Build of configuration Debug for project CountDupeElements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CountDupeElements.o" "..\\src\\CountDupeElements.c" 
+gcc -o CountDupeElements.exe "src\\CountDupeElements.o" 
+
+22:26:35 Build Finished. 0 errors, 0 warnings. (took 451ms)
+

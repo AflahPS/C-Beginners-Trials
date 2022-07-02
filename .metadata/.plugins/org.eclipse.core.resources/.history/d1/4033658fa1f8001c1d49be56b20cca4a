@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : CountDupeElements.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+	int sample[12],i;
+
+	for (i=0;i<12;i++){
+		if(i%2!=0){
+			sample[i] = i+1;
+		}else{
+		sample[i] = i ;
+		}
+	}
+	printf(sample);
+
+
+
+
+
+
+
+
+
+	return EXIT_SUCCESS;
+}

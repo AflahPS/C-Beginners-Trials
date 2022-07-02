@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PrimeNumber/src/PrintPrimeFromArray.c&apos; to &apos;PrimeNumber.c&apos;" description="Rename resource &apos;PrintPrimeFromArray.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/PrintPrimeFromArray.c" name="PrimeNumber.c" stamp="1656780549504" updateReferences="true"/>
+</session>

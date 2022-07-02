@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : Check.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+
+	int num,result;
+
+	printf("Please enter a number");
+	scanf("%d",&num);
+
+	int fib(int num){
+
+		return fib(num-1)+fib(num-2);
+	}
+
+	printf("\n"+fib(num));
+		return 0;
+}

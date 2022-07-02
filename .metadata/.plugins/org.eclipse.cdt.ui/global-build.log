@@ -1,0 +1,157 @@
+00:02:40 **** Rebuild of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+Info: Nothing to build for SortArray
+00:03:13 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:07:54 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:10:06 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:13:59 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:15:51 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:16:41 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:16:2: warning: 'array1Size' is used uninitialized in this function [-Wuninitialized]
+  int array1Size, array1[array1Size], array2Size, array2[array2Size],i,j;
+  ^~~
+..\src\SortAndMergeArray.c:16:2: warning: 'array2Size' is used uninitialized in this function [-Wuninitialized]
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:18:28 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:16:2: warning: 'array1Size' is used uninitialized in this function [-Wuninitialized]
+  int array1Size, array1[array1Size], array2Size, array2[array2Size],i,j;
+  ^~~
+..\src\SortAndMergeArray.c:16:2: warning: 'array2Size' is used uninitialized in this function [-Wuninitialized]
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:20:08 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:16:2: warning: 'array1Size' is used uninitialized in this function [-Wuninitialized]
+  int array1Size, array1[array1Size], array2Size, array2[array2Size],i,j;
+  ^~~
+..\src\SortAndMergeArray.c:16:2: warning: 'array2Size' is used uninitialized in this function [-Wuninitialized]
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:22:47 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:16:2: warning: 'array1Size' is used uninitialized in this function [-Wuninitialized]
+  int array1Size, array1[array1Size], array2Size, array2[array2Size],i,j;
+  ^~~
+..\src\SortAndMergeArray.c:16:2: warning: 'array2Size' is used uninitialized in this function [-Wuninitialized]
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:22:59 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:16:2: warning: 'array1Size' is used uninitialized in this function [-Wuninitialized]
+  int array1Size, array1[array1Size], array2Size, array2[array2Size],i,j;
+  ^~~
+..\src\SortAndMergeArray.c:16:2: warning: 'array2Size' is used uninitialized in this function [-Wuninitialized]
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:24:13 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:16:2: warning: 'array1Size' is used uninitialized in this function [-Wuninitialized]
+  int array1Size, array1[array1Size], array2Size, array2[array2Size],i,j;
+  ^~~
+..\src\SortAndMergeArray.c:16:2: warning: 'array2Size' is used uninitialized in this function [-Wuninitialized]
+..\src\SortAndMergeArray.c:17:2: warning: 'arraySize' is used uninitialized in this function [-Wuninitialized]
+  int arraySize, array[arraySize], temp;
+  ^~~
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:28:06 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:44:9: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+   if (0 < i < array1Size) {
+       ~~^~~
+..\src\SortAndMergeArray.c:68:2: error: expected declaration or statement at end of input
+  }
+  ^
+00:28:58 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:68:2: error: expected declaration or statement at end of input
+  }
+  ^
+00:29:27 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:16:2: warning: 'array1Size' is used uninitialized in this function [-Wuninitialized]
+  int array1Size, array1[array1Size], array2Size, array2[array2Size], i, j;
+  ^~~
+..\src\SortAndMergeArray.c:16:2: warning: 'array2Size' is used uninitialized in this function [-Wuninitialized]
+..\src\SortAndMergeArray.c:17:2: warning: 'arraySize' is used uninitialized in this function [-Wuninitialized]
+  int arraySize, array[arraySize], temp;
+  ^~~
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:31:35 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+..\src\SortAndMergeArray.c: In function 'main':
+..\src\SortAndMergeArray.c:16:2: warning: 'array1Size' is used uninitialized in this function [-Wuninitialized]
+  int array1Size, array1[array1Size], array2Size, array2[array2Size], i, j;
+  ^~~
+..\src\SortAndMergeArray.c:16:2: warning: 'array2Size' is used uninitialized in this function [-Wuninitialized]
+..\src\SortAndMergeArray.c:17:2: warning: 'arraySize' is used uninitialized in this function [-Wuninitialized]
+  int arraySize, array[arraySize], temp;
+  ^~~
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:33:22 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:35:19 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:35:52 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+Info: Nothing to build for SortAndMergeArray
+00:37:25 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:41:08 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:42:50 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+00:43:15 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+Info: Nothing to build for SortAndMergeArray
+00:47:22 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
