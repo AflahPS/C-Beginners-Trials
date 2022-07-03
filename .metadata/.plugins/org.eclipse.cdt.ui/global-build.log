@@ -1,8 +1,123 @@
-13:40:20 **** Rebuild of configuration Debug for project 7_OddEvenSeperation ****
+15:56:39 **** Rebuild of configuration Debug for project 13_Move0's ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\7_OddEvenSeperation.o" "..\\src\\7_OddEvenSeperation.c" 
-gcc -o 7_OddEvenSeperation.exe "src\\7_OddEvenSeperation.o" 
-13:40:25 **** Incremental Build of configuration Debug for project 7_OddEvenSeperation ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+15:56:44 **** Incremental Build of configuration Debug for project 13_Move0's ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\7_OddEvenSeperation.o" "..\\src\\7_OddEvenSeperation.c" 
-gcc -o 7_OddEvenSeperation.exe "src\\7_OddEvenSeperation.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+..\src\13_Move0's.c: In function 'main':
+..\src\13_Move0's.c:5:35: warning: unused variable 'temp' [-Wunused-variable]
+  int arraySize, array[200], i, j, temp, zeroCount = 0;
+                                   ^~~~
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+16:05:31 **** Incremental Build of configuration Debug for project 13_Move0's ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+..\src\13_Move0's.c: In function 'main':
+..\src\13_Move0's.c:5:35: warning: unused variable 'temp' [-Wunused-variable]
+  int arraySize, array[200], i, j, temp, zeroCount = 0;
+                                   ^~~~
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+16:13:42 **** Incremental Build of configuration Debug for project 13_Move0's ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+..\src\13_Move0's.c: In function 'main':
+..\src\13_Move0's.c:5:35: warning: unused variable 'temp' [-Wunused-variable]
+  int arraySize, array[200], i, j, temp, zeroCount = 0;
+                                   ^~~~
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+Info: Nothing to build for 13_Move0's
+16:18:21 **** Incremental Build of configuration Debug for project 13_Move0's ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+..\src\13_Move0's.c: In function 'main':
+..\src\13_Move0's.c:5:35: warning: unused variable 'temp' [-Wunused-variable]
+  int arraySize, array[200], i, j, temp, zeroCount = 0;
+                                   ^~~~
+..\src\13_Move0's.c:5:32: warning: unused variable 'j' [-Wunused-variable]
+  int arraySize, array[200], i, j, temp, zeroCount = 0;
+                                ^
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+16:18:47 **** Incremental Build of configuration Debug for project 13_Move0's ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+Info: Nothing to build for 13_Move0's
+16:24:33 **** Incremental Build of configuration Debug for project 13_Move0's ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+16:40:15 **** Incremental Build of configuration Debug for project 13_Move0's ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+..\src\13_Move0's.c: In function 'main':
+..\src\13_Move0's.c:5:35: warning: unused variable 'zeroCount' [-Wunused-variable]
+  int arraySize, array[200], i, j, zeroCount = 0;
+                                   ^~~~~~~~~
+..\src\13_Move0's.c:5:32: warning: unused variable 'j' [-Wunused-variable]
+  int arraySize, array[200], i, j, zeroCount = 0;
+                                ^
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+Info: Nothing to build for 13_Move0's
+Info: Nothing to build for 13_Move0's
+16:51:42 **** Incremental Build of configuration Debug for project 13_Move0's ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+..\src\13_Move0's.c: In function 'main':
+..\src\13_Move0's.c:5:32: warning: unused variable 'j' [-Wunused-variable]
+  int arraySize, array[200], i, j, numbCount = 0;
+                                ^
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+16:52:13 **** Incremental Build of configuration Debug for project 13_Move0's ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+..\src\13_Move0's.c: In function 'main':
+..\src\13_Move0's.c:5:32: warning: unused variable 'j' [-Wunused-variable]
+  int arraySize, array[200], i, j, numbCount = 0;
+                                ^
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+Info: Nothing to build for 13_Move0's
+16:53:33 **** Incremental Build of configuration Debug for project 13_Move0's ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
+gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+17:03:11 **** Rebuild of configuration Debug for project 3_PrintPrimeNumberArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray.o" "..\\src\\PrintPrimeNumberArray.c" 
+gcc -o 3_PrintPrimeNumberArray.exe "src\\PrintPrimeNumberArray.o" "src\\PrintPrimeNumberArray1-1000.o" 
+src\PrintPrimeNumberArray1-1000.o: In function `main':
+C:\Users\hp\Documents\MyProjects_C\3_PrintPrimeNumberArray\Debug/../src/PrintPrimeNumberArray1-1000.c:6: multiple definition of `main'
+src\PrintPrimeNumberArray.o:C:\Users\hp\Documents\MyProjects_C\3_PrintPrimeNumberArray\Debug/../src/PrintPrimeNumberArray.c:14: first defined here
+collect2.exe: error: ld returned 1 exit status
+17:05:03 **** Incremental Build of configuration Debug for project 3_PrintPrimeNumberArray ****
+Info: Internal Builder is used for build
+gcc -o 3_PrintPrimeNumberArray.exe "src\\PrintPrimeNumberArray.o" 
+17:05:16 **** Rebuild of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
+gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
+Info: Nothing to build for 13_Move0's
+Info: Nothing to build for PrintPrimeNumberArray1-1000.c
+17:06:27 **** Incremental Build of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
+gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
+17:06:39 **** Incremental Build of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
+gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
+17:06:52 **** Incremental Build of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
+gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
+17:07:02 **** Incremental Build of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
+gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
+17:07:46 **** Build of configuration Debug for project Check ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/hp/Documents/eclipse-cpp-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/hp/Documents/eclipse-cpp-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\MingW\mingw64\bin;;C:\Users\hp\Documents\eclipse-cpp-2022-06-R-win32-x86_64\eclipse]
