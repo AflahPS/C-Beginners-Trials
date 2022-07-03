@@ -1,123 +1,195 @@
-15:56:39 **** Rebuild of configuration Debug for project 13_Move0's ****
+18:03:30 **** Rebuild of configuration Debug for project Pattern_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-15:56:44 **** Incremental Build of configuration Debug for project 13_Move0's ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:03:34 **** Incremental Build of configuration Debug for project Pattern_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-..\src\13_Move0's.c: In function 'main':
-..\src\13_Move0's.c:5:35: warning: unused variable 'temp' [-Wunused-variable]
-  int arraySize, array[200], i, j, temp, zeroCount = 0;
-                                   ^~~~
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-16:05:31 **** Incremental Build of configuration Debug for project 13_Move0's ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+..\src\Pattern_1.c: In function 'main':
+..\src\Pattern_1.c:10:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%d",num);
+         ~^  ~~~
+..\src\Pattern_1.c:10:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+..\src\Pattern_1.c:13:13: error: invalid operands to binary * (have 'char *' and 'int')
+   printf("*"*i);
+          ~~~^
+..\src\Pattern_1.c:7:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j,num;
+        ^
+18:04:10 **** Incremental Build of configuration Debug for project Pattern_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-..\src\13_Move0's.c: In function 'main':
-..\src\13_Move0's.c:5:35: warning: unused variable 'temp' [-Wunused-variable]
-  int arraySize, array[200], i, j, temp, zeroCount = 0;
-                                   ^~~~
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-16:13:42 **** Incremental Build of configuration Debug for project 13_Move0's ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+..\src\Pattern_1.c: In function 'main':
+..\src\Pattern_1.c:13:13: error: invalid operands to binary * (have 'char *' and 'int')
+   printf("*"*i);
+          ~~~^
+..\src\Pattern_1.c:7:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j,num;
+        ^
+18:04:24 **** Incremental Build of configuration Debug for project Pattern_1 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-..\src\13_Move0's.c: In function 'main':
-..\src\13_Move0's.c:5:35: warning: unused variable 'temp' [-Wunused-variable]
-  int arraySize, array[200], i, j, temp, zeroCount = 0;
-                                   ^~~~
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+..\src\Pattern_1.c: In function 'main':
+..\src\Pattern_1.c:7:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j,num;
+        ^
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:04:42 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+..\src\Pattern_1.c: In function 'main':
+..\src\Pattern_1.c:7:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j,num;
+        ^
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:04:59 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+..\src\Pattern_1.c: In function 'main':
+..\src\Pattern_1.c:7:8: warning: unused variable 'j' [-Wunused-variable]
+  int i,j,num;
+        ^
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:06:28 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:07:39 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:08:39 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:08:59 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:09:42 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
 Info: Nothing to build for 13_Move0's
-16:18:21 **** Incremental Build of configuration Debug for project 13_Move0's ****
+18:10:32 **** Rebuild of configuration Debug for project 1_CountDupeElements ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-..\src\13_Move0's.c: In function 'main':
-..\src\13_Move0's.c:5:35: warning: unused variable 'temp' [-Wunused-variable]
-  int arraySize, array[200], i, j, temp, zeroCount = 0;
-                                   ^~~~
-..\src\13_Move0's.c:5:32: warning: unused variable 'j' [-Wunused-variable]
-  int arraySize, array[200], i, j, temp, zeroCount = 0;
-                                ^
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-16:18:47 **** Incremental Build of configuration Debug for project 13_Move0's ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CountDupeElements.o" "..\\src\\CountDupeElements.c" 
+gcc -o 1_CountDupeElements.exe "src\\CountDupeElements.o" 
+18:10:33 **** Rebuild of configuration Debug for project 2_PrintUUnique ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-Info: Nothing to build for 13_Move0's
-16:24:33 **** Incremental Build of configuration Debug for project 13_Move0's ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintUUnique.o" "..\\src\\PrintUUnique.c" 
+gcc -o 2_PrintUUnique.exe "src\\PrintUUnique.o" 
+18:10:33 **** Incremental Build of configuration Debug for project 3_PrintPrimeNumberArray ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-16:40:15 **** Incremental Build of configuration Debug for project 13_Move0's ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-..\src\13_Move0's.c: In function 'main':
-..\src\13_Move0's.c:5:35: warning: unused variable 'zeroCount' [-Wunused-variable]
-  int arraySize, array[200], i, j, zeroCount = 0;
-                                   ^~~~~~~~~
-..\src\13_Move0's.c:5:32: warning: unused variable 'j' [-Wunused-variable]
-  int arraySize, array[200], i, j, zeroCount = 0;
-                                ^
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-Info: Nothing to build for 13_Move0's
-Info: Nothing to build for 13_Move0's
-16:51:42 **** Incremental Build of configuration Debug for project 13_Move0's ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-..\src\13_Move0's.c: In function 'main':
-..\src\13_Move0's.c:5:32: warning: unused variable 'j' [-Wunused-variable]
-  int arraySize, array[200], i, j, numbCount = 0;
-                                ^
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-16:52:13 **** Incremental Build of configuration Debug for project 13_Move0's ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-..\src\13_Move0's.c: In function 'main':
-..\src\13_Move0's.c:5:32: warning: unused variable 'j' [-Wunused-variable]
-  int arraySize, array[200], i, j, numbCount = 0;
-                                ^
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-Info: Nothing to build for 13_Move0's
-16:53:33 **** Incremental Build of configuration Debug for project 13_Move0's ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\13_Move0's.o" "..\\src\\13_Move0's.c" 
-gcc -o 13_Move0's.exe "src\\13_Move0's.o" 
-17:03:11 **** Rebuild of configuration Debug for project 3_PrintPrimeNumberArray ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray.o" "..\\src\\PrintPrimeNumberArray.c" 
-gcc -o 3_PrintPrimeNumberArray.exe "src\\PrintPrimeNumberArray.o" "src\\PrintPrimeNumberArray1-1000.o" 
-src\PrintPrimeNumberArray1-1000.o: In function `main':
-C:\Users\hp\Documents\MyProjects_C\3_PrintPrimeNumberArray\Debug/../src/PrintPrimeNumberArray1-1000.c:6: multiple definition of `main'
-src\PrintPrimeNumberArray.o:C:\Users\hp\Documents\MyProjects_C\3_PrintPrimeNumberArray\Debug/../src/PrintPrimeNumberArray.c:14: first defined here
-collect2.exe: error: ld returned 1 exit status
-17:05:03 **** Incremental Build of configuration Debug for project 3_PrintPrimeNumberArray ****
-Info: Internal Builder is used for build
 gcc -o 3_PrintPrimeNumberArray.exe "src\\PrintPrimeNumberArray.o" 
-17:05:16 **** Rebuild of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
+18:10:34 **** Rebuild of configuration Debug for project 4_SortAndMergeArray ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
-gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
-Info: Nothing to build for 13_Move0's
-Info: Nothing to build for PrintPrimeNumberArray1-1000.c
-17:06:27 **** Incremental Build of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
+gcc -o 4_SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
+Info: Nothing to build for 5_CountFreqElements
+Info: Nothing to build for 6_LargestAndSmallest
+Info: Nothing to build for 7_OddEvenSeperation
+18:10:35 **** Incremental Build of configuration Debug for project 8_DeleteElementArray ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
-gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
-17:06:39 **** Incremental Build of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
-gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
-17:06:52 **** Incremental Build of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
-gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
-17:07:02 **** Incremental Build of configuration Debug for project PrintPrimeNumberArray1-1000.c ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrintPrimeNumberArray1-1000.o" "..\\src\\PrintPrimeNumberArray1-1000.c" 
-gcc -o PrintPrimeNumberArray1-1000.c.exe "src\\PrintPrimeNumberArray1-1000.o" 
-17:07:46 **** Build of configuration Debug for project Check ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\8_DeleteElementArray.o" "..\\src\\8_DeleteElementArray.c" 
+gcc -o 8_DeleteElementArray.exe "src\\8_DeleteElementArray.o" 
+Info: Nothing to build for 9,10_SecondLargSmall
+18:10:35 **** Incremental Build of configuration Debug for project Check ****
 make all 
 Cannot run program "make": Launching failed
 
 Error: Program "make" not found in PATH
 PATH=[C:/Users/hp/Documents/eclipse-cpp-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/hp/Documents/eclipse-cpp-2022-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\MingW\mingw64\bin;;C:\Users\hp\Documents\eclipse-cpp-2022-06-R-win32-x86_64\eclipse]
+Info: Nothing to build for Pattern_1
+18:10:36 **** Rebuild of configuration Debug for project PrimeNumber ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\PrimeNumber.o" "..\\src\\PrimeNumber.c" 
+gcc -o PrimeNumber.exe "src\\PrimeNumber.o" 
+Info: Nothing to build for PrintPrimeNumberArray1-1000.c
+18:10:36 **** Rebuild of configuration Debug for project SortArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortArray.o" "..\\src\\SortArray.c" 
+gcc -o SortArray.exe "src\\SortArray.o" 
+18:10:58 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:11:37 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:11:50 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:12:19 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:13:32 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:14:02 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:20:12 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+..\src\Pattern_1.c: In function 'main':
+..\src\Pattern_1.c:26:1: error: expected declaration or statement at end of input
+ }
+ ^
+18:20:33 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:20:52 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+Info: Nothing to build for Pattern_1
+Info: Nothing to build for Pattern_1
+18:21:28 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:21:43 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:22:01 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:26:43 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:27:05 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:27:36 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+Info: Nothing to build for Pattern_1
+18:28:23 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:28:41 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:29:04 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
+18:29:13 **** Incremental Build of configuration Debug for project Pattern_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Pattern_1.o" "..\\src\\Pattern_1.c" 
+gcc -o Pattern_1.exe "src\\Pattern_1.o" 
