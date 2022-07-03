@@ -1,7 +1,1 @@
-00:47:22 **** Incremental Build of configuration Debug for project SortAndMergeArray ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SortAndMergeArray.o" "..\\src\\SortAndMergeArray.c" 
-gcc -o SortAndMergeArray.exe "src\\SortAndMergeArray.o" 
-
-00:47:22 Build Finished. 0 errors, 0 warnings. (took 376ms)
-
+Info: Nothing to build for SortAndMergeArray

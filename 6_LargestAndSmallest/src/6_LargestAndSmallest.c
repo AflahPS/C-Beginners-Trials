@@ -1,11 +1,9 @@
-
-
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void) {
 
-	int arraySize = 100, array[arraySize], i, j, temp;
+	int arraySize, array[250], i, largest = INT_MIN, smallest = INT_MAX;
 	setbuf(stdout, NULL);
 
 	printf("Please enter size of array: ");
@@ -14,26 +12,20 @@ int main(void) {
 	printf("\nPlease enter numbers: ");
 
 	for (i = 0; i < arraySize; i++) {
-		printf("\n number%d", i);
+		printf("\n number%d", i + 1);
 		scanf("%d", &array[i]);
 	}
 
 	for (i = 0; i < arraySize; i++) {
-		for (j = i + 1; j < arraySize; j++) {
-			if (array[i] < array[j]) {
-				temp = array[j];
-				array[j] = array[i];
-				array[i] = temp;
-
-			}
-
+		if (array[i] > largest) {
+			largest = array[i];
+		}
+		if (array[i] < smallest) {
+			smallest = array[i];
 		}
 
 	}
-
-	for (i = 0; i < arraySize; i++) {
-		printf("\t %d", array[i]);
-	}
+	printf("\n largest is %d \n smallest is %d", largest, smallest);
 
 	return EXIT_SUCCESS;
 }
