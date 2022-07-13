@@ -3,8 +3,9 @@
 
 int main(void) {
 
-	int arraySize, array[250], i, j, count;
+	int arraySize,commonSize=0, array[250],common[250], i, j, count;
 	setbuf(stdout,NULL);
+
 
 	printf("Please enter size of array: ");
 	scanf("%d", &arraySize);
@@ -23,9 +24,9 @@ int main(void) {
 				count++;
 			}
 		}
-
-		printf("\nCount of %d in the list is %d", array[i], count);
+		if(count>1 ){
+			printf("\nCount of %d in the list is %d\n", array[i], count);
+		}
 	}
-
 	return EXIT_SUCCESS;
 }
