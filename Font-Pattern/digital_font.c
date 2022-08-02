@@ -4,15 +4,19 @@
 int main(void)
 {
 
-    int input_num = 10, size = 1, mid = size + 1, width = 2 * size + 1, height = 4 * size + 1, i, j;
+    int input_num = 10, size = 1, i, j;
 
     printf("Please enter size of the font: \n");
-    scanf("%d",&size);
+    scanf("%d", &size);
 
-    while(input_num>9 || input_num<0){
+    int mid = size + 1, width = 2 * size + 1, height = 4 * size + 1;
+
+    while (input_num > 9 || input_num < 0)
+    {
         printf("Please enter a number (0-9): \n");
-        scanf("%d",&input_num);
+        scanf("%d", &input_num);
     }
+    /* clear screen */
     system("clear");
 
     /* number 1 */
@@ -24,11 +28,11 @@ int main(void)
             {
                 if (j == mid)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
@@ -44,19 +48,19 @@ int main(void)
             {
                 if (i == 1 || i == width || i == height)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else if (i > 1 && i < width && j == width)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else if (i > width && i < height && j == 1)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
@@ -72,11 +76,11 @@ int main(void)
             {
                 if (i == 1 || i == width || i == height || j == width)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
@@ -90,13 +94,13 @@ int main(void)
         {
             for (j = 1; j <= width; j++)
             {
-                if (i >= 1 && i < width && j == 1 || i == width || i > width && i <= height && j == width)
+                if (i >= 1 && i < width && j == width-i+1|| i == width || i > width && i <= height && j == width)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
@@ -112,11 +116,11 @@ int main(void)
             {
                 if (i == 1 || i == width || i == height || i >= 1 && i < width && j == 1 || i > width && i <= height && j == width)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
@@ -130,13 +134,13 @@ int main(void)
         {
             for (j = 1; j <= width; j++)
             {
-                if (i == 1 || i == width || i == height || j==1 ||i > width && i <= height && j == width)
+                if (i == 1 || i == width || i == height || j == 1 || i > width && i <= height && j == width)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
@@ -152,31 +156,31 @@ int main(void)
             {
                 if (i == 1 || j == width)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
         }
     }
 
-     /*number 8*/
+    /*number 8*/
     if (input_num == 8)
     {
         for (i = 1; i <= height; i++)
         {
             for (j = 1; j <= width; j++)
             {
-                if (i == 1 || i==width || i==height || j==1 || j == width)
+                if (i == 1 || i == width || i == height || j == 1 || j == width)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
@@ -190,13 +194,13 @@ int main(void)
         {
             for (j = 1; j <= width; j++)
             {
-                if (i == 1 || i==width || i==height || j == width || i>=1 && i<width && j==1)
+                if (i == 1 || i == width || i == height || j == width || i >= 1 && i < width && j == 1)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
@@ -210,13 +214,13 @@ int main(void)
         {
             for (j = 1; j <= width; j++)
             {
-                if (i == 1 || i==height || j == width ||j==1)
+                if (i == 1 || i == height || j == width || j == 1)
                 {
-                    printf("%d", input_num);
+                    printf(" %d ", input_num);
                 }
                 else
                 {
-                    printf(" ");
+                    printf("   ");
                 }
             }
             printf("\n");
