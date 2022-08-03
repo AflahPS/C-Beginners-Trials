@@ -10,6 +10,8 @@ int main(void){
     else if(num>=100 && num<1000){ num_length=3;}
     else if(num>=1000 && num<10000){ num_length=4;}
 
+
+
     for(i=0; i<num_length; i++){
         if(num>0){
             mod = num%10;
