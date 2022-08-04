@@ -16,7 +16,8 @@ int main(void)
     printf("Please enter a number : \n");
     scanf("%d", &input_num);
 
-    /*Splitting number to an array*/
+    /*Splitting number to digits and inserting to an array*/
+    
     if (input_num == 0)
     {
         digits[0] = 0;
@@ -35,6 +36,7 @@ int main(void)
         }
     }
     num_length--;
+
     for (i = 0; i < num_length; i++)
     {
         temp[i] = digits[num_length - 1 - i];
@@ -47,6 +49,8 @@ int main(void)
 
     /* clear screen */
     system("clear");
+
+    /*Printing each elements of array*/
 
     for (i = 1; i <= height; i++)
     {
