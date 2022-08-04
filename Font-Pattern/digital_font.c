@@ -4,7 +4,7 @@
 int main(void)
 {
 
-    int input_num = 10, num_length, size = 1, i, j, k;
+    int input_num, num_length = 1, size = 1, i, j, k;
     int digits[100], temp[100], mod;
 
     printf("Please enter size of the font: \n");
@@ -13,11 +13,11 @@ int main(void)
     /*Calculation for size of font*/
     int mid = size + 1, width = 2 * size + 1, height = 4 * size + 1;
 
-    printf("Please enter a number : \n");
+    printf("Please enter a number (maximum 9 number): \n");
     scanf("%d", &input_num);
 
     /*Splitting number to digits and inserting to an array*/
-    
+
     if (input_num == 0)
     {
         digits[0] = 0;
@@ -54,9 +54,10 @@ int main(void)
 
     for (i = 1; i <= height; i++)
     {
-        for (j = 1; j <= width; j++)
+        for (k = 0; k < num_length; k++)
         {
-            for (k = 0; k < num_length; k++)
+
+            for (j = 1; j <= width; j++)
             {
 
                 if (digits[k] == 1)
@@ -169,7 +170,7 @@ int main(void)
                         printf("   ");
                     }
                 }
-            }
+            }printf("  ");
         }
         printf("\n");
     }
