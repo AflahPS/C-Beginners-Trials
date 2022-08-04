@@ -4,22 +4,53 @@
 int main(void)
 {
 
-    int input_num = 10, size = 1, i, j;
-
+    int input_num = 10, num_length, size = 1, i, j;
+    int digits[100],temp[100],mod;
+    
     printf("Please enter size of the font: \n");
     scanf("%d", &size);
 
+    /*Calculation for size of font*/
     int mid = size + 1, width = 2 * size + 1, height = 4 * size + 1;
 
-    while (input_num > 9 || input_num < 0)
+    printf("Please enter a number : \n");
+    scanf("%d", &input_num);
+
+    /*Splitting number to an array*/
+    if (input_num == 0)
     {
-        printf("Please enter a number (0-9): \n");
-        scanf("%d", &input_num);
+        digits[0] = 0;
     }
+    else
+    {
+        for (i = 0; i < num_length; i++)
+        {
+            if (input_num > 0)
+            {
+                mod = input_num % 10;
+                printf("%d\n", mod);
+                digits[i] = mod;
+                input_num = (input_num - mod) / 10;
+                num_length++;
+            }
+        }
+    }
+    num_length--;
+    for (i = 0; i < num_length; i++)
+    {
+        temp[i] = digits[num_length - 1 - i];
+    }
+    printf("Inside array\n");
+    for (i = 0; i < num_length; i++)
+    {
+        digits[i] = temp[i];
+    }
+
     /* clear screen */
     system("clear");
 
     /* number 1 */
+    
     if (input_num == 1)
     {
         for (i = 1; i <= height; i++)

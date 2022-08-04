@@ -1,29 +1,41 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void){
+int main(void)
+{
 
-    int num=123,num_length,i,digits[100],mod;
+    int num = 13456, num_length = 1, i, temp[100], digits[100], mod;
 
-    if(num>0 && num<10){ num_length=1;}
-    else if(num>=10 && num<100){ num_length=2;}
-    else if(num>=100 && num<1000){ num_length=3;}
-    else if(num>=1000 && num<10000){ num_length=4;}
-
-    for(i=0; i<num_length; i++){
-        if(num>0){
-            mod = num%10;
-            printf("%d\n",mod);
-            digits[(num_length-1)-i]=mod;
-            num=(num-mod)/10;
+    if (num == 0)
+    {
+        digits[0] = 0;
+    }
+    else
+    {
+        for (i = 0; i < num_length; i++)
+        {
+            if (num > 0)
+            {
+                mod = num % 10;
+                printf("%d\n", mod);
+                digits[i] = mod;
+                num = (num - mod) / 10;
+                num_length++;
+            }
         }
     }
-    printf("Inside array\n");
-    for(i=0; i<num_length; i++){
-        printf("%d\n",digits[i]);
+    num_length--;
+    printf("Inside temp:\n");
+    for (i = 0; i < num_length; i++)
+    {
+        temp[i] = digits[num_length - 1 - i];
+        printf("%d\n", temp[i]);
     }
-
-
-
+    printf("Inside array\n");
+    for (i = 0; i < num_length; i++)
+    {
+        digits[i] = temp[i];
+        printf("%d\n", digits[i]);
+    }
     return 0;
 }
