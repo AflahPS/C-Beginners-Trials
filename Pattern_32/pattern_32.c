@@ -17,7 +17,7 @@ int main(void)
     n   2*n-1   3*inp   (3*inp+1)/2 
     
     To find the i-value, find the position of 'size' in odd-number-AP.
-    Using AP equation a[n]=a+(n-1)*d ie. 3*inp=1+(i-1)*2}
+    Using AP equation a[n]=a+(n-1)*d ie. by solving 3*inp=1+(i-1)*2}.
     */
     for (i = 1; i <= (3*inp+1)/2; i++)
     {
