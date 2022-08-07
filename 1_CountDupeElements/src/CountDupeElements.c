@@ -13,7 +13,7 @@
 
 int main(void) {
 
-	int arraySize = 100, sample[arraySize], i, j, duplicateCount = 0;
+	int arraySize = 20, sample[arraySize], i, j, duplicateCount = 0;
 
 	for (i = 0; i < arraySize; i++) {
 		if (i % 5 == 0 ) {
@@ -27,14 +27,14 @@ int main(void) {
 	}
 
 	for (i = 0; i < arraySize; i++) {
-		for (j = 0; j < arraySize; j++) {
-			if (i != j && sample[i] == sample[j]) {
+		for (j = i+1; j < arraySize; j++) {
+			if ( sample[i] == sample[j]) {
 
 				duplicateCount ++;
 			}
 		}
 	}
-	printf("\n Total duplicate entries are: %d", duplicateCount / 2);
+	printf("\n Total duplicate entries are: %d", duplicateCount);
 
 	return EXIT_SUCCESS;
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 
 int main(void) {
 
@@ -12,7 +13,7 @@ int main(void) {
 	printf("\nPlease enter numbers: ");
 
 	for (i = 0; i < arraySize; i++) {
-		printf("\n number%d", i + 1);
+		printf("\n number-%d: ", i + 1);
 		scanf("%d", &array[i]);
 	}
 
@@ -25,7 +26,7 @@ int main(void) {
 		}
 
 	}
-	printf("\n largest is %d \n smallest is %d", largest, smallest);
+	printf("\n largest is %d \n smallest is %d \n", largest, smallest);
 
 	return EXIT_SUCCESS;
 }

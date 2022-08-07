@@ -5,6 +5,7 @@ int main(void){
     int i,j,arraySize=600;
     int array[arraySize];
     setbuf(stdout,NULL);
+    
 
     printf("please enter the size of the array: ");
     scanf("%d",&arraySize);
