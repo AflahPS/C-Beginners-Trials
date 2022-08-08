@@ -35,6 +35,7 @@ int main(void)
         }
     }
     arraySize = arraySize - count;
+    
     printf("Array after deletion of %d is: \n", delNum);
     for (i = 0; i < arraySize; i++)
     {
